@@ -5,7 +5,14 @@
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{verbatim}
+
+% Hypertext
 \usepackage{hyperref}
+
+%Bibliobraphy
+\usepackage{natbib}
+\usepackage{bibtopic}
+\usepackage{url}
 
 \usepackage[utf8]{inputenc} % Krävs för att svenska tecken ska läsas korrekt i vissa system.
 %\usepackage[latin1]{inputenc} % Om svenska tecken inte fungerar korrekt, försök att byta ut föregående rad mot denna (eller testa utan någon av raderna)
@@ -58,5 +65,16 @@ Hani Fakhouri
 \section{Method}
 
 \section{Literature}
+
+\begin{btSect}[alpha]{primary}
+\subsection{Primary}
+\btPrintAll
+\end{btSect}
+
+
+\begin{btSect}[alpha]{secondary}
+\subsection{Secondary}
+\btPrintAll
+\end{btSect}
 
 \end{document}
