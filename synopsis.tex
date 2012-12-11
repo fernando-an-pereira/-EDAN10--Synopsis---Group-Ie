@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{verbatim}
+\usepackage{hyperref}
 
 \usepackage[utf8]{inputenc} % Krävs för att svenska tecken ska läsas korrekt i vissa system.
 %\usepackage[latin1]{inputenc} % Om svenska tecken inte fungerar korrekt, försök att byta ut föregående rad mot denna (eller testa utan någon av raderna)
@@ -15,10 +16,21 @@
 
 \bibliographystyle{unsrt}
 
+%Remove red boxes due to the hyperref
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \title{EDAN10 -- Group I-e\\--\\ Synopsis \\
 Introduction of SCM in a company 
 %maybe add a better title
 }
+
 \author{Einar Holst \\
 Fernando de Andrade Pereira \\
 Hani Fakhouri
