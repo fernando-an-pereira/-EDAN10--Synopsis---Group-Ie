@@ -62,15 +62,27 @@ Hani Fakhouri
 In this work, we will discuss about the introduction of SCM in a company, that is really relevant due the increasing of productivity that the SCM may induce in a  software development corporation.
 
 \section{Problem statement}
+A company (called \emph{PonteVecchio Software} or PVS for short) is a small software development company that has grown from 2 to 15 developers in the last 10 years. They have never introduced any form of configuration managment (CM for short) and are starting to notice that they have problems they can not quiet explain. They have heard that CM could help them with some of these problems and have requested a plan to introduce CM to the company in steps that will not disturbe their production but at the same time solve their issues.
+
+Currently the company works on their source code using a single network resource to and from which everyone reads and writes. This is likely to be the cause of one of the issues they have been having which is that code that has been done seems to disappear from time to time without a trace. This is commonly known as the \emph{simultaneous update} problem in CM and is normaly solved using tools.
+
+The simultaneous update problem that has been creeping into development has meant that the company has been forced to introduce a \emph{Waterfall method} of development that allows them dictate who can edit what files and when in order to minimize the problem. This in some ways might slow down production as delays in a single part of the plan set forward can cause chain reactions that delay the whole project.
+
+Another issue that they have because of the shared network resource is that they do not have the ability to maintain old releases that have been delivered to costumers. While a copy of what was delivered to the costumer is kept on a CD which was created at release. While this copy does exist it does not provide any benefit to the company other then the ability to make a copy of it and deliver it to clients again if it is lost.
+
+There is also an issue with that the company has no clear process for handling change requests which has resulted in some confusion among the employees. Mostly this happens when some interface or class changes how it is intended to be used or methods change name without the information that it will be changed or even has changed reaches all the developers.
+
+While some of these issues could be easily fixed the company managment has also decided that they want to use exclusivly free tools to do so. While not a major problem it is one extra consideration to take into account when solving the issues the company has presently.
 
 \section{Hypotheses}
 
 \section{Method}
 
+\newpage
+\appendix
 \section{Literature}
 
 The literature that will be used in the project was prioritized in primary -- most relevant to this work -- and secondary -- less relevant, but also important in the work. 
-
 \begin{btSect}[alpha]{primary}
 \subsection{Primary}
 \btPrintAll
